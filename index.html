@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charlie's Assistant Otto — Personal Automation Assistant</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#5b6470; --line:#e3e6ea; --accent:#1f5fbf; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:#fff; }
+  main { max-width:720px; margin:0 auto; padding:56px 24px 80px; }
+  h1 { font-size:1.9rem; line-height:1.25; margin:0 0 8px; }
+  h2 { font-size:1.1rem; margin:36px 0 8px; }
+  .sub { color:var(--muted); margin:0 0 32px; }
+  hr { border:0; border-top:1px solid var(--line); margin:40px 0; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:.9rem; }
+  code { background:#f4f6f8; padding:1px 5px; border-radius:4px; font-size:.9em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Charlie's Assistant Otto</h1>
+  <p class="sub">A private, single-user automation assistant.</p>
+
+  <p>
+    Charlie's Assistant Otto is a personal automation assistant operated by its owner for the owner's own use.
+    It is not a commercial product, it is not offered to the public, and it has exactly one user:
+    the owner of the Google Account that authorizes it. No other person can sign in or grant it access.
+  </p>
+
+  <h2>What it does</h2>
+  <p>
+    The assistant reads and acts on the owner's own Google Workspace data so the owner can delegate
+    routine work: summarizing email, drafting and sending replies, creating calendar events, reading
+    and writing spreadsheets, and organizing files in Drive. It performs these actions on request or
+    on a schedule the owner sets, and it reports the results back to the owner in a private chat.
+  </p>
+
+  <h2>Google data it accesses</h2>
+  <p>
+    With the owner's explicit consent it requests access to the following scopes, and uses each one only
+    to carry out the actions listed above:
+  </p>
+  <ul>
+    <li><code>gmail.readonly</code>, <code>gmail.modify</code>, <code>gmail.send</code> — read, label, and send the owner's email</li>
+    <li><code>calendar</code> — read the owner's calendar and create, update, or remove events</li>
+    <li><code>drive</code> — search, read, upload, organize, and share the owner's files</li>
+    <li><code>spreadsheets</code> — read and write the owner's Google Sheets</li>
+    <li><code>documents</code> — read and write the owner's Google Docs</li>
+    <li><code>contacts.readonly</code> — look up names and addresses to address messages and invitees</li>
+  </ul>
+
+  <h2>Data handling</h2>
+  <p>
+    Google user data is used only to perform the actions the owner requests. It is not sold, not used
+    for advertising, not used to train machine-learning models, and not transferred to any third party
+    except as needed to run the requested action. Full details are in the
+    <a href="https://ccolt.github.io/privacy.html">privacy policy</a>.
+  </p>
+
+  <hr>
+
+  <footer>
+    <p>
+      Contact: <a href="mailto:charlies.assistant.otto@gmail.com">charlies.assistant.otto@gmail.com</a><br>
+      <a href="https://ccolt.github.io/privacy.html">Privacy policy</a>
+    </p>
+  </footer>
+</main>
+</body>
+</html>
